@@ -1,0 +1,10 @@
+[package]
+name = "horizon-native"
+version = "0.1.1"
+edition = "2024"
+license = "MIT"
+publish = false
+description = "horizon-native - a dummy mod"
+
+[lib]
+path = "mixins/native/runtime.rs"
